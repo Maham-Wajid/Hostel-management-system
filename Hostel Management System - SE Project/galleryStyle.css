@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar settings */
+
+/* .navbar{
+    background-color: rgba(208, 193, 193, 0.3) !important;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar .navbar-collapse .navbar-nav li{
+    font-size: 1.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-weight: bold;
+    text-shadow: none;
+    font-family: 'Noto Serif', serif;
+}
+
+.navbar .navbar-collapse .navbar-nav li:hover{
+    border-radius: 20px;
+    background-color: rgb(214, 167, 79);
+}
+
+.navbar .navbar-collapse .navbar-nav li a:hover{
+    color: white;
+}
+
+.navbar .navbar-collapse .navbar-nav .activeHome{
+    border-radius: 20px;
+    background-color: rgb(214, 167, 79);
+    text-shadow: 2px 1px #1f2436;
+    font-weight: bold;
+}
+
+.navbar .navbar-collapse .navbar-nav .activeHome a{
+    color: whitesmoke;
+}
+
+/* Galler */
+
+.Gallery h1{
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+}
+
+.Gallery img{
+    height: 250px;
+    cursor: pointer;
+}
+
+.box1{
+    box-shadow: 2px 2px 5px rgb(214, 167, 79);
+}
+
+/* Footer */
+
+.location{
+    font-family: 'Noto Serif', serif;
+    padding-left: 120px;
+}
+
+.location h2{
+    padding-top: 115px;
+    font-family: 'Noto Serif', serif;
+}
+
+.Icons{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.Footer{
+    background-color: rgb(92, 51, 4);
+    height: 50px;
+    width: 100%;
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar settings */
+
+.navbar{
+    background-color: rgba(208, 193, 193, 0.3) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar .navbar-collapse .navbar-nav li{
+    font-size: 1.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-weight: bold;
+    text-shadow: none;
+    font-family: 'Noto Serif', serif;
+}
+
+.navbar .navbar-collapse .navbar-nav li:hover{
+    border-radius: 20px;
+    background-color: rgb(214, 167, 79);
+}
+
+.navbar .navbar-collapse .navbar-nav li a:hover{
+    color: white;
+}
+
+.navbar .navbar-collapse .navbar-nav .activeHome{
+    border-radius: 20px;
+    background-color: rgb(214, 167, 79);
+    text-shadow: 2px 1px #1f2436;
+    font-weight: bold;
+}
+
+.navbar .navbar-collapse .navbar-nav .activeHome a{
+    color: whitesmoke;
+}
+
+/* middle text setting */
+
+.carousel-caption{
+    bottom: 12rem;
+    font-family: 'Noto Serif', serif;
+}
+
+.carousel-caption h1{
+    font-weight: 700;
+    font-size: 2.75rem;
+    text-shadow: 2px 2px #1f2436;
+}
+
+.carousel-caption p{
+    font-size: 1.2rem;
+    text-shadow: 2px 2px #1f2436;
+}
+
+.carousel-inner .carousel-item img{
+    height: 92vh;
+    opacity: 0.9;
+}
+
+/* marquee setting */
+
+marquee{
+    background-color: rgb(226, 170, 67);
+    font-family: 'Noto Serif', serif;
+}
+
+/* Details Section */
+
+.details h1{
+    font-family: 'Anton', sans-serif;
+}
+
+.card{
+    font-family: 'Noto Serif', serif;
+    border: none;
+}
+
+.card img{
+    box-shadow: 2px 2px 3px rgb(219, 218, 218);
+}
+
+/* Footer */
+
+.location{
+    font-family: 'Noto Serif', serif;
+    padding-left: 120px;
+}
+
+.location h2{
+    padding-top: 115px;
+    font-family: 'Noto Serif', serif;
+}
+
+.Icons{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.Footer{
+    background-color: rgb(92, 51, 4);
+    height: 50px;
+    width: 100%;
+}

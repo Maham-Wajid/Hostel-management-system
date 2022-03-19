@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Side navbar */
+
+.box {
+  border-top: 1px solid white;
+}
+
+.nav-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navbar-nav .nav-item a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: white;
+}
+
+.activeItem {
+  background-color: white;
+}
+
+.active span {
+  color: rgb(226, 170, 67);
+}
+
+.navbar-nav .nav-item a:hover {
+  color: rgb(226, 170, 67);
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 13vh;
+  width: 100%;
+}
+
+/* Search button */
+
+.search {
+  position: relative;
+  box-shadow: 2px 1px 3px rgba(51, 51, 51, 0.1),
+    -1px -2px 3px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+  height: 60px;
+  text-indent: 25px;
+  border: none;
+  font-family: "Noto Serif", serif;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid rgb(226, 170, 67);
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+
+.search button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: linear-gradient(
+    30deg,
+    rgb(243, 198, 114),
+    rgb(241, 177, 58),
+    rgb(251, 168, 14)
+  );
+  border: none;
+  font-size: 18px;
+  font-family: "Noto Serif", serif;
+}
+
+.search button:hover {
+  background: linear-gradient(
+    30deg,
+    rgb(251, 168, 14),
+    rgb(241, 177, 58),
+    rgb(243, 198, 114)
+  );
+}
+
+.search button:focus {
+  border: none;
+  outline: none;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  font-family: "Noto Serif", serif;
+  height: 50px;
+  width: 125px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  display: inline-block !important;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  background: linear-gradient(
+    30deg,
+    rgb(251, 168, 14),
+    rgb(241, 177, 58),
+    rgb(243, 198, 114)
+  );
+}
+
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+  border: none;
+  outline: none;
+}
+
+/* Media Queries */
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-item a {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (desktops, less than 1040px) */
+@media (max-width: 1060px) {
+  .navbar-nav .nav-item a span {
+    display: none !important;
+  }
+
+  .nav-item {
+    text-align: center !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logo img {
+    width: 100% !important;
+  }
+
+  #btn1,
+  #btn2,
+  #btn3 {
+    height: 40px;
+    width: 90px;
+    font-size: 12px;
+  }
+}
+
+/* No media query since the xxl breakpoint has no upper bound on its width */

@@ -1,0 +1,16 @@
+***Instruction(Follow Carefully!)***
+
+1). Run this project on localhost. 
+2). For this you have to install xampp server in your system and put this folder in "htdocs" folder of Xampp folder.
+3). Import "hms.sql" database file in "phpmyadmin" database as it is without changing name of database file.
+4). If you face any problem in running the project then you can contact me at anytime.
+
+Contact Details:
+name: maham wajid
+redg no: 2019cs207
+email: 2019cs207@student.uet.edu.pk or maham00079@gmail.com
+contact: 0313-8676531
+
+Thanks for your precious time!
+Jazakallah!
+

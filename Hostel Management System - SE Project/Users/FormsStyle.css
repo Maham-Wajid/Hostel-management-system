@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Side navbar */
+
+.box {
+  border-top: 1px solid white;
+}
+
+.nav-item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-nav .nav-item a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar-nav .nav-item:hover{
+    background-color: white;
+}
+
+.activeItem{
+    background-color: white;
+}
+
+.active span{
+    color: rgb(226, 170, 67);
+}
+
+.navbar-nav .nav-item a:hover{
+    color: rgb(226, 170, 67);
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 13vh;
+  width: 100%;
+}
+
+#fillBtn{
+  top: 5px;
+  right: 3px;
+  height: 50px;
+  width: 180px;
+  background: linear-gradient(
+    30deg,
+    rgb(243, 198, 114),
+    rgb(241, 177, 58),
+    rgb(251, 168, 14)
+  );
+  border: none;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Media Queries */
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) { 
+
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .navbar-nav .nav-item a {
+        font-size: 18px;
+    }
+ }
+
+  /* Large devices (desktops, less than 1040px) */
+@media (max-width: 1060px) { 
+    .navbar-nav .nav-item a span{
+        display: none !important;
+    }
+
+    .nav-item{
+        text-align: center !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .logo img{
+        width: 100% !important;
+    }
+ }
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }
+
+ /* XX-Large devices (larger desktops) */
+ /* No media query since the xxl breakpoint has no upper bound on its width */

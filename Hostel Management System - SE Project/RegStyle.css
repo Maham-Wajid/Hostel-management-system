@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+/* navbar settings */
+
+.navbar {
+  background-color: rgba(208, 193, 193, 0.3) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar .navbar-collapse .navbar-nav li {
+  font-size: 1.2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  font-weight: bold;
+  text-shadow: none;
+  font-family: "Noto Serif", serif;
+}
+
+.navbar .navbar-collapse .navbar-nav li:hover {
+  border-radius: 20px;
+  background-color: rgb(214, 167, 79);
+}
+
+.navbar .navbar-collapse .navbar-nav li a:hover {
+  color: white;
+}
+
+.navbar .navbar-collapse .navbar-nav .activeHome {
+  border-radius: 20px;
+  background-color: #d6a74f;
+  text-shadow: 2px 1px #1f2436;
+  font-weight: bold;
+}
+
+.navbar .navbar-collapse .navbar-nav .activeHome a {
+  color: whitesmoke;
+}
+
+/* Background */
+
+.mainSec {
+  background: linear-gradient(
+    60deg,
+    #f6cb7b,
+    rgb(241, 177, 58),
+    rgb(246, 203, 123),
+    rgb(251, 168, 14)
+  );
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.box1 {
+  width: 55% !important;
+  background: whitesmoke;
+  box-shadow: 2px 2px 3px #bba171,-2px -2px 3px #bba171;
+  border-radius: 15px;
+}
+
+.leftside{
+    position: relative;
+}
+
+.leftside img{
+    border-top-left-radius: 1.4rem !important;
+    border-bottom-left-radius: 1.4rem !important;
+}
+
+.box2{
+    position: absolute;
+    top:35%;
+    color: whitesmoke;
+    text-shadow: 2px 1px black;
+}
+
+/* Form settings */
+
+form input,form select{
+    background: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 1px 3px silver, -1px -1px 3px silver;
+}
+
+form input:focus, form select:focus{
+    outline: none;
+}
+
+.btn{
+  background: linear-gradient(
+    60deg,
+    rgb(246, 203, 123),
+    rgb(241, 177, 58)
+  );
+  color: #1f2436;
+  font-size: 20px;
+  box-shadow: 2px 1px 3px silver;
+}
+
+.btn:hover{
+  background: linear-gradient(
+    60deg,
+    rgb(245, 179, 57),
+    rgb(246, 203, 123)
+  );
+}
